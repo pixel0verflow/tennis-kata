@@ -45,5 +45,13 @@ public class Game {
     public boolean isDeuce() {
         return scores.get(p1) == scores.get(p2) && scores.get(p1) == Score.P40;
     }
+
+    public Player getWinner() {
+        return winner;
+    }
+
+    public Player getAdvantage() {
+        return advantage;
+    }
 }
 
